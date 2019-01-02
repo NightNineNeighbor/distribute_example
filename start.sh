@@ -10,6 +10,7 @@ git pull
 
 echo "> Build project"
 
+chmod 755 ./gradlew
 ./gradlew build
 
 CURRENT_PID=$(pgrep -f demo)
